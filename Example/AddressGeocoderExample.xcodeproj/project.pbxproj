@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F6C28226D89120FA9236348 /* Pods_AddressGeocoderExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC359B92414249A39C15455 /* Pods_AddressGeocoderExampleTests.framework */; };
+		8E444DAB1DE3AE96008342BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E444DAA1DE3AE96008342BC /* AppDelegate.swift */; };
+		8E444DAD1DE3AE96008342BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E444DAC1DE3AE96008342BC /* ViewController.swift */; };
+		8E444DB01DE3AE96008342BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E444DAE1DE3AE96008342BC /* Main.storyboard */; };
+		8E444DB21DE3AE96008342BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E444DB11DE3AE96008342BC /* Assets.xcassets */; };
+		8E444DB51DE3AE96008342BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E444DB31DE3AE96008342BC /* LaunchScreen.storyboard */; };
+		8E444DC01DE3AE96008342BC /* AddressGeocoderExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E444DBF1DE3AE96008342BC /* AddressGeocoderExampleTests.swift */; };
+		FE6264B9037AFD333A51EE7F /* Pods_AddressGeocoderExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79626B23894A2749106CEFBC /* Pods_AddressGeocoderExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E444DBC1DE3AE96008342BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E444D9F1DE3AE96008342BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E444DA61DE3AE96008342BC;
+			remoteInfo = AddressGeocoderExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		111D22EB19AB45587E5F332D /* Pods-AddressGeocoderExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressGeocoderExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AddressGeocoderExample/Pods-AddressGeocoderExample.release.xcconfig"; sourceTree = "<group>"; };
+		6D8C7EF88FC19C3BF3641280 /* Pods-AddressGeocoderExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressGeocoderExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AddressGeocoderExampleTests/Pods-AddressGeocoderExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		79626B23894A2749106CEFBC /* Pods_AddressGeocoderExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddressGeocoderExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E444DA71DE3AE96008342BC /* AddressGeocoderExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressGeocoderExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E444DAA1DE3AE96008342BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E444DAC1DE3AE96008342BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E444DAF1DE3AE96008342BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E444DB11DE3AE96008342BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E444DB41DE3AE96008342BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E444DB61DE3AE96008342BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E444DBB1DE3AE96008342BC /* AddressGeocoderExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressGeocoderExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E444DBF1DE3AE96008342BC /* AddressGeocoderExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressGeocoderExampleTests.swift; sourceTree = "<group>"; };
+		8E444DC11DE3AE96008342BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC359B92414249A39C15455 /* Pods_AddressGeocoderExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddressGeocoderExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE30EDBC6AEEB692F45F51CA /* Pods-AddressGeocoderExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressGeocoderExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AddressGeocoderExample/Pods-AddressGeocoderExample.debug.xcconfig"; sourceTree = "<group>"; };
+		D11B5F3F528B26EC51379A09 /* Pods-AddressGeocoderExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressGeocoderExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AddressGeocoderExampleTests/Pods-AddressGeocoderExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E444DA41DE3AE96008342BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6264B9037AFD333A51EE7F /* Pods_AddressGeocoderExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E444DB81DE3AE96008342BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6C28226D89120FA9236348 /* Pods_AddressGeocoderExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E444D9E1DE3AE96008342BC = {
+			isa = PBXGroup;
+			children = (
+				8E444DA91DE3AE96008342BC /* AddressGeocoderExample */,
+				8E444DBE1DE3AE96008342BC /* AddressGeocoderExampleTests */,
+				8E444DA81DE3AE96008342BC /* Products */,
+				D6EA15EB7DDDC9351B60EC41 /* Pods */,
+				F687E0F6A52DD2C6642D0899 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E444DA81DE3AE96008342BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E444DA71DE3AE96008342BC /* AddressGeocoderExample.app */,
+				8E444DBB1DE3AE96008342BC /* AddressGeocoderExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E444DA91DE3AE96008342BC /* AddressGeocoderExample */ = {
+			isa = PBXGroup;
+			children = (
+				8E444DAA1DE3AE96008342BC /* AppDelegate.swift */,
+				8E444DAC1DE3AE96008342BC /* ViewController.swift */,
+				8E444DAE1DE3AE96008342BC /* Main.storyboard */,
+				8E444DB11DE3AE96008342BC /* Assets.xcassets */,
+				8E444DB31DE3AE96008342BC /* LaunchScreen.storyboard */,
+				8E444DB61DE3AE96008342BC /* Info.plist */,
+			);
+			path = AddressGeocoderExample;
+			sourceTree = "<group>";
+		};
+		8E444DBE1DE3AE96008342BC /* AddressGeocoderExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E444DBF1DE3AE96008342BC /* AddressGeocoderExampleTests.swift */,
+				8E444DC11DE3AE96008342BC /* Info.plist */,
+			);
+			path = AddressGeocoderExampleTests;
+			sourceTree = "<group>";
+		};
+		D6EA15EB7DDDC9351B60EC41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE30EDBC6AEEB692F45F51CA /* Pods-AddressGeocoderExample.debug.xcconfig */,
+				111D22EB19AB45587E5F332D /* Pods-AddressGeocoderExample.release.xcconfig */,
+				D11B5F3F528B26EC51379A09 /* Pods-AddressGeocoderExampleTests.debug.xcconfig */,
+				6D8C7EF88FC19C3BF3641280 /* Pods-AddressGeocoderExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F687E0F6A52DD2C6642D0899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79626B23894A2749106CEFBC /* Pods_AddressGeocoderExample.framework */,
+				BBC359B92414249A39C15455 /* Pods_AddressGeocoderExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E444DA61DE3AE96008342BC /* AddressGeocoderExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E444DC41DE3AE96008342BC /* Build configuration list for PBXNativeTarget "AddressGeocoderExample" */;
+			buildPhases = (
+				A93E433C9B33135298844BFD /* [CP] Check Pods Manifest.lock */,
+				8E444DA31DE3AE96008342BC /* Sources */,
+				8E444DA41DE3AE96008342BC /* Frameworks */,
+				8E444DA51DE3AE96008342BC /* Resources */,
+				827C2B36A8CD06D319D9DE55 /* [CP] Embed Pods Frameworks */,
+				21232D06645176134AC1E7B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressGeocoderExample;
+			productName = AddressGeocoderExample;
+			productReference = 8E444DA71DE3AE96008342BC /* AddressGeocoderExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E444DBA1DE3AE96008342BC /* AddressGeocoderExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E444DC71DE3AE96008342BC /* Build configuration list for PBXNativeTarget "AddressGeocoderExampleTests" */;
+			buildPhases = (
+				7651153A6935D96EDE733669 /* [CP] Check Pods Manifest.lock */,
+				8E444DB71DE3AE96008342BC /* Sources */,
+				8E444DB81DE3AE96008342BC /* Frameworks */,
+				8E444DB91DE3AE96008342BC /* Resources */,
+				AAFE8CA1A45C63B2538F46D8 /* [CP] Embed Pods Frameworks */,
+				5D39F1B9284271CD71849674 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E444DBD1DE3AE96008342BC /* PBXTargetDependency */,
+			);
+			name = AddressGeocoderExampleTests;
+			productName = AddressGeocoderExampleTests;
+			productReference = 8E444DBB1DE3AE96008342BC /* AddressGeocoderExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E444D9F1DE3AE96008342BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Prolific Interactive";
+				TargetAttributes = {
+					8E444DA61DE3AE96008342BC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					8E444DBA1DE3AE96008342BC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8E444DA61DE3AE96008342BC;
+					};
+				};
+			};
+			buildConfigurationList = 8E444DA21DE3AE96008342BC /* Build configuration list for PBXProject "AddressGeocoderExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E444D9E1DE3AE96008342BC;
+			productRefGroup = 8E444DA81DE3AE96008342BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E444DA61DE3AE96008342BC /* AddressGeocoderExample */,
+				8E444DBA1DE3AE96008342BC /* AddressGeocoderExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E444DA51DE3AE96008342BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E444DB51DE3AE96008342BC /* LaunchScreen.storyboard in Resources */,
+				8E444DB21DE3AE96008342BC /* Assets.xcassets in Resources */,
+				8E444DB01DE3AE96008342BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E444DB91DE3AE96008342BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21232D06645176134AC1E7B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AddressGeocoderExample/Pods-AddressGeocoderExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D39F1B9284271CD71849674 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AddressGeocoderExampleTests/Pods-AddressGeocoderExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7651153A6935D96EDE733669 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		827C2B36A8CD06D319D9DE55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AddressGeocoderExample/Pods-AddressGeocoderExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A93E433C9B33135298844BFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AAFE8CA1A45C63B2538F46D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AddressGeocoderExampleTests/Pods-AddressGeocoderExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E444DA31DE3AE96008342BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E444DAD1DE3AE96008342BC /* ViewController.swift in Sources */,
+				8E444DAB1DE3AE96008342BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E444DB71DE3AE96008342BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E444DC01DE3AE96008342BC /* AddressGeocoderExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E444DBD1DE3AE96008342BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E444DA61DE3AE96008342BC /* AddressGeocoderExample */;
+			targetProxy = 8E444DBC1DE3AE96008342BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E444DAE1DE3AE96008342BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E444DAF1DE3AE96008342BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E444DB31DE3AE96008342BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E444DB41DE3AE96008342BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E444DC21DE3AE96008342BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E444DC31DE3AE96008342BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E444DC51DE3AE96008342BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE30EDBC6AEEB692F45F51CA /* Pods-AddressGeocoderExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AddressGeocoderExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.AddressGeocoderExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8E444DC61DE3AE96008342BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111D22EB19AB45587E5F332D /* Pods-AddressGeocoderExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AddressGeocoderExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.AddressGeocoderExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8E444DC81DE3AE96008342BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D11B5F3F528B26EC51379A09 /* Pods-AddressGeocoderExampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddressGeocoderExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.AddressGeocoderExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressGeocoderExample.app/AddressGeocoderExample";
+			};
+			name = Debug;
+		};
+		8E444DC91DE3AE96008342BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D8C7EF88FC19C3BF3641280 /* Pods-AddressGeocoderExampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddressGeocoderExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.AddressGeocoderExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressGeocoderExample.app/AddressGeocoderExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E444DA21DE3AE96008342BC /* Build configuration list for PBXProject "AddressGeocoderExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E444DC21DE3AE96008342BC /* Debug */,
+				8E444DC31DE3AE96008342BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E444DC41DE3AE96008342BC /* Build configuration list for PBXNativeTarget "AddressGeocoderExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E444DC51DE3AE96008342BC /* Debug */,
+				8E444DC61DE3AE96008342BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E444DC71DE3AE96008342BC /* Build configuration list for PBXNativeTarget "AddressGeocoderExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E444DC81DE3AE96008342BC /* Debug */,
+				8E444DC91DE3AE96008342BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E444D9F1DE3AE96008342BC /* Project object */;
+}

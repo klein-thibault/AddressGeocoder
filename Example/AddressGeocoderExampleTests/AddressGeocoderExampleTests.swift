@@ -1,15 +1,15 @@
 //
-//  AtlasTests.swift
-//  AtlasTests
+//  AddressGeocoderExampleTests.swift
+//  AddressGeocoderExampleTests
 //
 //  Created by Thibault Klein on 11/21/16.
 //  Copyright © 2016 Prolific Interactive. All rights reserved.
 //
 
 import XCTest
-@testable import Atlas
+@testable import AddressGeocoderExample
 
-class AtlasTests: XCTestCase {
+class AddressGeocoderExampleTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

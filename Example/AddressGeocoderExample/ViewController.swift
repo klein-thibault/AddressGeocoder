@@ -1,12 +1,12 @@
 //
 //  ViewController.swift
-//  Atlas
+//  AddressGeocoderExample
 //
 //  Created by Thibault Klein on 11/21/16.
 //  Copyright © 2016 Prolific Interactive. All rights reserved.
 //
 
-import Atlas
+import AddressGeocoder
 import Result
 import UIKit
 
@@ -34,5 +34,5 @@ class ViewController: UIViewController, Geocodable {
                             }
         })
     }
-
+    
 }

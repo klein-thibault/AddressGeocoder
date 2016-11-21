@@ -1,0 +1,11 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'AddressGeocoderExample' do
+	pod 'Result'
+	pod 'AddressGeocoder', :path => '../'
+
+	target 'AddressGeocoderExampleTests' do
+		inherit! :search_paths
+	end
+end
