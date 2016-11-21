@@ -6,6 +6,7 @@
 //  Copyright © 2016 Prolific Interactive. All rights reserved.
 //
 
+import Atlas
 import Result
 import UIKit
 

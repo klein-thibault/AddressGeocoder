@@ -1,12 +1,20 @@
 PODS:
+  - Atlas (0.0.1):
+    - Result
   - Result (3.0.0)
 
 DEPENDENCIES:
+  - Atlas (from `../../`)
   - Result
 
+EXTERNAL SOURCES:
+  Atlas:
+    :path: "../../"
+
 SPEC CHECKSUMS:
+  Atlas: a2473c58dae3b8dd01c2cfff898995a4e6884fb7
   Result: 1b3e431f37cbcd3ad89c6aa9ab0ae55515fae3b6
 
-PODFILE CHECKSUM: 618282735a57312cb850923b3185033ef96622ce
+PODFILE CHECKSUM: fbbc194aaec9dfd4c27e5879e986a53472b4897e
 
 COCOAPODS: 1.1.1

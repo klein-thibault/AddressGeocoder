@@ -3,4 +3,5 @@ use_frameworks!
 
 target 'Atlas' do
 	pod 'Result'
+	pod 'Atlas', :path => '../../'
 end

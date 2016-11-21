@@ -13,10 +13,6 @@
 		8E444D7B1DE38411008342BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E444D7A1DE38411008342BC /* Assets.xcassets */; };
 		8E444D7E1DE38411008342BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E444D7C1DE38411008342BC /* LaunchScreen.storyboard */; };
 		8E444D891DE38412008342BC /* AtlasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E444D881DE38412008342BC /* AtlasTests.swift */; };
-		8E444D961DE3843A008342BC /* GeocodeAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E444D941DE3843A008342BC /* GeocodeAddress.swift */; };
-		8E444D991DE385A7008342BC /* GeocodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E444D981DE385A7008342BC /* GeocodingError.swift */; };
-		8E444D9B1DE38685008342BC /* Geocodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E444D9A1DE38685008342BC /* Geocodable.swift */; };
-		8E444D9D1DE38C75008342BC /* CLPlacemark+FormattedLocality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E444D9C1DE38C75008342BC /* CLPlacemark+FormattedLocality.swift */; };
 		B3262D66229E9DF904A8ACD0 /* Pods_Atlas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0E40A2E4C489DFE33156F8 /* Pods_Atlas.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,20 +29,16 @@
 /* Begin PBXFileReference section */
 		0A0E40A2E4C489DFE33156F8 /* Pods_Atlas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Atlas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7103D39112D2894C3C206B /* Pods-Atlas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atlas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Atlas/Pods-Atlas.release.xcconfig"; sourceTree = "<group>"; };
-		8E444D701DE38411008342BC /* Atlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atlas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E444D701DE38411008342BC /* AtlasExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtlasExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E444D731DE38411008342BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E444D751DE38411008342BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8E444D781DE38411008342BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E444D7A1DE38411008342BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E444D7D1DE38411008342BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E444D7F1DE38411008342BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E444D841DE38412008342BC /* AtlasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtlasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E444D841DE38412008342BC /* AtlasExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtlasExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E444D881DE38412008342BC /* AtlasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasTests.swift; sourceTree = "<group>"; };
 		8E444D8A1DE38412008342BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E444D941DE3843A008342BC /* GeocodeAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocodeAddress.swift; sourceTree = "<group>"; };
-		8E444D981DE385A7008342BC /* GeocodingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocodingError.swift; sourceTree = "<group>"; };
-		8E444D9A1DE38685008342BC /* Geocodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geocodable.swift; sourceTree = "<group>"; };
-		8E444D9C1DE38C75008342BC /* CLPlacemark+FormattedLocality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLPlacemark+FormattedLocality.swift"; sourceTree = "<group>"; };
 		D003B64C15E34576248A220E /* Pods-Atlas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atlas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Atlas/Pods-Atlas.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,8 +75,8 @@
 		8E444D711DE38411008342BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E444D701DE38411008342BC /* Atlas.app */,
-				8E444D841DE38412008342BC /* AtlasTests.xctest */,
+				8E444D701DE38411008342BC /* AtlasExample.app */,
+				8E444D841DE38412008342BC /* AtlasExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,7 +84,6 @@
 		8E444D721DE38411008342BC /* Atlas */ = {
 			isa = PBXGroup;
 			children = (
-				8E444D931DE3843A008342BC /* Sources */,
 				8E444D731DE38411008342BC /* AppDelegate.swift */,
 				8E444D751DE38411008342BC /* ViewController.swift */,
 				8E444D771DE38411008342BC /* Main.storyboard */,
@@ -110,18 +101,6 @@
 				8E444D8A1DE38412008342BC /* Info.plist */,
 			);
 			path = AtlasTests;
-			sourceTree = "<group>";
-		};
-		8E444D931DE3843A008342BC /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				8E444D941DE3843A008342BC /* GeocodeAddress.swift */,
-				8E444D981DE385A7008342BC /* GeocodingError.swift */,
-				8E444D9A1DE38685008342BC /* Geocodable.swift */,
-				8E444D9C1DE38C75008342BC /* CLPlacemark+FormattedLocality.swift */,
-			);
-			name = Sources;
-			path = ../../../Sources;
 			sourceTree = "<group>";
 		};
 		E0FEF11EC65B9F69EFB02DD6 /* Frameworks */ = {
@@ -144,9 +123,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E444D6F1DE38411008342BC /* Atlas */ = {
+		8E444D6F1DE38411008342BC /* AtlasExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E444D8D1DE38412008342BC /* Build configuration list for PBXNativeTarget "Atlas" */;
+			buildConfigurationList = 8E444D8D1DE38412008342BC /* Build configuration list for PBXNativeTarget "AtlasExample" */;
 			buildPhases = (
 				DFE76EE66F0EE0BE1FD307DC /* [CP] Check Pods Manifest.lock */,
 				8E444D6C1DE38411008342BC /* Sources */,
@@ -159,14 +138,14 @@
 			);
 			dependencies = (
 			);
-			name = Atlas;
+			name = AtlasExample;
 			productName = Atlas;
-			productReference = 8E444D701DE38411008342BC /* Atlas.app */;
+			productReference = 8E444D701DE38411008342BC /* AtlasExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8E444D831DE38412008342BC /* AtlasTests */ = {
+		8E444D831DE38412008342BC /* AtlasExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E444D901DE38412008342BC /* Build configuration list for PBXNativeTarget "AtlasTests" */;
+			buildConfigurationList = 8E444D901DE38412008342BC /* Build configuration list for PBXNativeTarget "AtlasExampleTests" */;
 			buildPhases = (
 				8E444D801DE38412008342BC /* Sources */,
 				8E444D811DE38412008342BC /* Frameworks */,
@@ -177,9 +156,9 @@
 			dependencies = (
 				8E444D861DE38412008342BC /* PBXTargetDependency */,
 			);
-			name = AtlasTests;
+			name = AtlasExampleTests;
 			productName = AtlasTests;
-			productReference = 8E444D841DE38412008342BC /* AtlasTests.xctest */;
+			productReference = 8E444D841DE38412008342BC /* AtlasExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -203,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8E444D6B1DE38411008342BC /* Build configuration list for PBXProject "Atlas" */;
+			buildConfigurationList = 8E444D6B1DE38411008342BC /* Build configuration list for PBXProject "AtlasExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -216,8 +195,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E444D6F1DE38411008342BC /* Atlas */,
-				8E444D831DE38412008342BC /* AtlasTests */,
+				8E444D6F1DE38411008342BC /* AtlasExample */,
+				8E444D831DE38412008342BC /* AtlasExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -295,12 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E444D9D1DE38C75008342BC /* CLPlacemark+FormattedLocality.swift in Sources */,
-				8E444D961DE3843A008342BC /* GeocodeAddress.swift in Sources */,
 				8E444D761DE38411008342BC /* ViewController.swift in Sources */,
-				8E444D9B1DE38685008342BC /* Geocodable.swift in Sources */,
 				8E444D741DE38411008342BC /* AppDelegate.swift in Sources */,
-				8E444D991DE385A7008342BC /* GeocodingError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +292,7 @@
 /* Begin PBXTargetDependency section */
 		8E444D861DE38412008342BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8E444D6F1DE38411008342BC /* Atlas */;
+			target = 8E444D6F1DE38411008342BC /* AtlasExample */;
 			targetProxy = 8E444D851DE38412008342BC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -469,7 +444,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.AtlasTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atlas.app/Atlas";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtlasExample.app/AtlasExample";
 			};
 			name = Debug;
 		};
@@ -483,14 +458,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.AtlasTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atlas.app/Atlas";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtlasExample.app/AtlasExample";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E444D6B1DE38411008342BC /* Build configuration list for PBXProject "Atlas" */ = {
+		8E444D6B1DE38411008342BC /* Build configuration list for PBXProject "AtlasExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E444D8B1DE38412008342BC /* Debug */,
@@ -499,7 +474,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E444D8D1DE38412008342BC /* Build configuration list for PBXNativeTarget "Atlas" */ = {
+		8E444D8D1DE38412008342BC /* Build configuration list for PBXNativeTarget "AtlasExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E444D8E1DE38412008342BC /* Debug */,
@@ -508,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E444D901DE38412008342BC /* Build configuration list for PBXNativeTarget "AtlasTests" */ = {
+		8E444D901DE38412008342BC /* Build configuration list for PBXNativeTarget "AtlasExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E444D911DE38412008342BC /* Debug */,

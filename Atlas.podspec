@@ -23,6 +23,6 @@ Geocoding helper. Can provide a locality and state based on a ZIP code.
   s.platform     = :ios, '9.0'
   s.requires_arc = true
 
-  s.source_files = 'Atlas/Sources/**/*.{swift}'
+  s.source_files = 'Sources/**/*.{swift}'
   s.dependency 'Result'
 end
