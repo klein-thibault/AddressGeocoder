@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E444D741DE38411008342BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E444D731DE38411008342BC /* AppDelegate.swift */; };
+		8E444D761DE38411008342BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E444D751DE38411008342BC /* ViewController.swift */; };
+		8E444D791DE38411008342BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E444D771DE38411008342BC /* Main.storyboard */; };
+		8E444D7B1DE38411008342BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E444D7A1DE38411008342BC /* Assets.xcassets */; };
+		8E444D7E1DE38411008342BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E444D7C1DE38411008342BC /* LaunchScreen.storyboard */; };
+		8E444D891DE38412008342BC /* AtlasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E444D881DE38412008342BC /* AtlasTests.swift */; };
+		8E444D961DE3843A008342BC /* GeocodeAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E444D941DE3843A008342BC /* GeocodeAddress.swift */; };
+		8E444D991DE385A7008342BC /* GeocodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E444D981DE385A7008342BC /* GeocodingError.swift */; };
+		8E444D9B1DE38685008342BC /* Geocodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E444D9A1DE38685008342BC /* Geocodable.swift */; };
+		8E444D9D1DE38C75008342BC /* CLPlacemark+FormattedLocality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E444D9C1DE38C75008342BC /* CLPlacemark+FormattedLocality.swift */; };
+		B3262D66229E9DF904A8ACD0 /* Pods_Atlas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0E40A2E4C489DFE33156F8 /* Pods_Atlas.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E444D851DE38412008342BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E444D681DE38411008342BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E444D6F1DE38411008342BC;
+			remoteInfo = Atlas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A0E40A2E4C489DFE33156F8 /* Pods_Atlas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Atlas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7103D39112D2894C3C206B /* Pods-Atlas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atlas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Atlas/Pods-Atlas.release.xcconfig"; sourceTree = "<group>"; };
+		8E444D701DE38411008342BC /* Atlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atlas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E444D731DE38411008342BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E444D751DE38411008342BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E444D781DE38411008342BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E444D7A1DE38411008342BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E444D7D1DE38411008342BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E444D7F1DE38411008342BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E444D841DE38412008342BC /* AtlasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtlasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E444D881DE38412008342BC /* AtlasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasTests.swift; sourceTree = "<group>"; };
+		8E444D8A1DE38412008342BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E444D941DE3843A008342BC /* GeocodeAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocodeAddress.swift; sourceTree = "<group>"; };
+		8E444D981DE385A7008342BC /* GeocodingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocodingError.swift; sourceTree = "<group>"; };
+		8E444D9A1DE38685008342BC /* Geocodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geocodable.swift; sourceTree = "<group>"; };
+		8E444D9C1DE38C75008342BC /* CLPlacemark+FormattedLocality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLPlacemark+FormattedLocality.swift"; sourceTree = "<group>"; };
+		D003B64C15E34576248A220E /* Pods-Atlas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atlas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Atlas/Pods-Atlas.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E444D6D1DE38411008342BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3262D66229E9DF904A8ACD0 /* Pods_Atlas.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E444D811DE38412008342BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E444D671DE38411008342BC = {
+			isa = PBXGroup;
+			children = (
+				8E444D721DE38411008342BC /* Atlas */,
+				8E444D871DE38412008342BC /* AtlasTests */,
+				8E444D711DE38411008342BC /* Products */,
+				F6511E3FF5DA9F0622838800 /* Pods */,
+				E0FEF11EC65B9F69EFB02DD6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E444D711DE38411008342BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E444D701DE38411008342BC /* Atlas.app */,
+				8E444D841DE38412008342BC /* AtlasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E444D721DE38411008342BC /* Atlas */ = {
+			isa = PBXGroup;
+			children = (
+				8E444D931DE3843A008342BC /* Sources */,
+				8E444D731DE38411008342BC /* AppDelegate.swift */,
+				8E444D751DE38411008342BC /* ViewController.swift */,
+				8E444D771DE38411008342BC /* Main.storyboard */,
+				8E444D7A1DE38411008342BC /* Assets.xcassets */,
+				8E444D7C1DE38411008342BC /* LaunchScreen.storyboard */,
+				8E444D7F1DE38411008342BC /* Info.plist */,
+			);
+			path = Atlas;
+			sourceTree = "<group>";
+		};
+		8E444D871DE38412008342BC /* AtlasTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E444D881DE38412008342BC /* AtlasTests.swift */,
+				8E444D8A1DE38412008342BC /* Info.plist */,
+			);
+			path = AtlasTests;
+			sourceTree = "<group>";
+		};
+		8E444D931DE3843A008342BC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8E444D941DE3843A008342BC /* GeocodeAddress.swift */,
+				8E444D981DE385A7008342BC /* GeocodingError.swift */,
+				8E444D9A1DE38685008342BC /* Geocodable.swift */,
+				8E444D9C1DE38C75008342BC /* CLPlacemark+FormattedLocality.swift */,
+			);
+			name = Sources;
+			path = ../../../Sources;
+			sourceTree = "<group>";
+		};
+		E0FEF11EC65B9F69EFB02DD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A0E40A2E4C489DFE33156F8 /* Pods_Atlas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6511E3FF5DA9F0622838800 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D003B64C15E34576248A220E /* Pods-Atlas.debug.xcconfig */,
+				2C7103D39112D2894C3C206B /* Pods-Atlas.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E444D6F1DE38411008342BC /* Atlas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E444D8D1DE38412008342BC /* Build configuration list for PBXNativeTarget "Atlas" */;
+			buildPhases = (
+				DFE76EE66F0EE0BE1FD307DC /* [CP] Check Pods Manifest.lock */,
+				8E444D6C1DE38411008342BC /* Sources */,
+				8E444D6D1DE38411008342BC /* Frameworks */,
+				8E444D6E1DE38411008342BC /* Resources */,
+				926F397DEE5F9120C4323EB5 /* [CP] Embed Pods Frameworks */,
+				8E8FB1F36B83CB50F3A73221 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Atlas;
+			productName = Atlas;
+			productReference = 8E444D701DE38411008342BC /* Atlas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E444D831DE38412008342BC /* AtlasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E444D901DE38412008342BC /* Build configuration list for PBXNativeTarget "AtlasTests" */;
+			buildPhases = (
+				8E444D801DE38412008342BC /* Sources */,
+				8E444D811DE38412008342BC /* Frameworks */,
+				8E444D821DE38412008342BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E444D861DE38412008342BC /* PBXTargetDependency */,
+			);
+			name = AtlasTests;
+			productName = AtlasTests;
+			productReference = 8E444D841DE38412008342BC /* AtlasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E444D681DE38411008342BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Prolific Interactive";
+				TargetAttributes = {
+					8E444D6F1DE38411008342BC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					8E444D831DE38412008342BC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8E444D6F1DE38411008342BC;
+					};
+				};
+			};
+			buildConfigurationList = 8E444D6B1DE38411008342BC /* Build configuration list for PBXProject "Atlas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E444D671DE38411008342BC;
+			productRefGroup = 8E444D711DE38411008342BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E444D6F1DE38411008342BC /* Atlas */,
+				8E444D831DE38412008342BC /* AtlasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E444D6E1DE38411008342BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E444D7E1DE38411008342BC /* LaunchScreen.storyboard in Resources */,
+				8E444D7B1DE38411008342BC /* Assets.xcassets in Resources */,
+				8E444D791DE38411008342BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E444D821DE38412008342BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E8FB1F36B83CB50F3A73221 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Atlas/Pods-Atlas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		926F397DEE5F9120C4323EB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Atlas/Pods-Atlas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFE76EE66F0EE0BE1FD307DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E444D6C1DE38411008342BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E444D9D1DE38C75008342BC /* CLPlacemark+FormattedLocality.swift in Sources */,
+				8E444D961DE3843A008342BC /* GeocodeAddress.swift in Sources */,
+				8E444D761DE38411008342BC /* ViewController.swift in Sources */,
+				8E444D9B1DE38685008342BC /* Geocodable.swift in Sources */,
+				8E444D741DE38411008342BC /* AppDelegate.swift in Sources */,
+				8E444D991DE385A7008342BC /* GeocodingError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E444D801DE38412008342BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E444D891DE38412008342BC /* AtlasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E444D861DE38412008342BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E444D6F1DE38411008342BC /* Atlas */;
+			targetProxy = 8E444D851DE38412008342BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E444D771DE38411008342BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E444D781DE38411008342BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E444D7C1DE38411008342BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E444D7D1DE38411008342BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E444D8B1DE38412008342BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E444D8C1DE38412008342BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E444D8E1DE38412008342BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D003B64C15E34576248A220E /* Pods-Atlas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Atlas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.Atlas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8E444D8F1DE38412008342BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C7103D39112D2894C3C206B /* Pods-Atlas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Atlas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.Atlas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8E444D911DE38412008342BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AtlasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.AtlasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atlas.app/Atlas";
+			};
+			name = Debug;
+		};
+		8E444D921DE38412008342BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AtlasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.AtlasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atlas.app/Atlas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E444D6B1DE38411008342BC /* Build configuration list for PBXProject "Atlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E444D8B1DE38412008342BC /* Debug */,
+				8E444D8C1DE38412008342BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E444D8D1DE38412008342BC /* Build configuration list for PBXNativeTarget "Atlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E444D8E1DE38412008342BC /* Debug */,
+				8E444D8F1DE38412008342BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E444D901DE38412008342BC /* Build configuration list for PBXNativeTarget "AtlasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E444D911DE38412008342BC /* Debug */,
+				8E444D921DE38412008342BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E444D681DE38411008342BC /* Project object */;
+}
