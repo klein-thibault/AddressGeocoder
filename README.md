@@ -7,11 +7,11 @@
 
 ## Description
 
-`AddressGeocoder` is a helper tool to get the state and locality for a given zip code.
+AddressGeocoder is a helper tool to get the state and locality for a given zip code.
 
 For example, providing `95014` will return `Cupertino` as the city and `CA` as the state.
 
-`AddressGeocoder` relies on the CoreLocation APIs to get the address information, and parses the generated formatted address for better and more accurate results.
+AddressGeocoder relies on the CoreLocation APIs to get the address information, and parses the generated formatted address for better and more accurate results.
 
 ## Requirements
 
@@ -27,7 +27,7 @@ To use in your projects, simply add the following line to your Podfile:
 pod 'AddressGeocoder'
 ```
 
-You can then use `AddressGeocoder` by importing it into your files:
+You can then use AddressGeocoder by importing it into your files:
 
 ```swift
 import AddressGeocoder
@@ -48,11 +48,11 @@ geocoder.geocodeLocality(zipCode,
         })
 ```
 
-## Contributing to PROJECT_NAME
+## Contributing to AddressGeocoder
 
 To report a bug or enhancement request, feel free to file an issue under the respective heading.
 
-If you wish to contribute to the project, fork this repo and submit a pull request. **WHEN SETTING UP AN SWIFT IOS LIBRARY, INCLUDE THE FOLLOWING SENTENCE.** Code contributions should follow the standards specified in the [Prolific Swift Style Guide](https://github.com/prolificinteractive/swift-style-guide). 
+If you wish to contribute to the project, fork this repo and submit a pull request. Code contributions should follow the standards specified in the [Prolific Swift Style Guide](https://github.com/prolificinteractive/swift-style-guide). 
 
 ## License
 
@@ -60,6 +60,6 @@ If you wish to contribute to the project, fork this repo and submit a pull reque
 
 Copyright (c) 2016 Prolific Interactive
 
-`AddressGeocoder` is maintained and sponsored by Prolific Interactive. It may be redistributed under the terms specified in the [LICENSE] file.
+AddressGeocoder is maintained and sponsored by Prolific Interactive. It may be redistributed under the terms specified in the [LICENSE] file.
 
 [LICENSE]: ./LICENSE
