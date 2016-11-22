@@ -13,7 +13,6 @@
 		8E444DB01DE3AE96008342BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E444DAE1DE3AE96008342BC /* Main.storyboard */; };
 		8E444DB21DE3AE96008342BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E444DB11DE3AE96008342BC /* Assets.xcassets */; };
 		8E444DB51DE3AE96008342BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E444DB31DE3AE96008342BC /* LaunchScreen.storyboard */; };
-		8E444DC01DE3AE96008342BC /* AddressGeocoderExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E444DBF1DE3AE96008342BC /* AddressGeocoderExampleTests.swift */; };
 		8EA2932C1DE4AA3B0058FB19 /* GeocodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA2932B1DE4AA3B0058FB19 /* GeocodableTests.swift */; };
 		FE6264B9037AFD333A51EE7F /* Pods_AddressGeocoderExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79626B23894A2749106CEFBC /* Pods_AddressGeocoderExample.framework */; };
 /* End PBXBuildFile section */
@@ -40,7 +39,6 @@
 		8E444DB41DE3AE96008342BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E444DB61DE3AE96008342BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E444DBB1DE3AE96008342BC /* AddressGeocoderExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressGeocoderExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E444DBF1DE3AE96008342BC /* AddressGeocoderExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressGeocoderExampleTests.swift; sourceTree = "<group>"; };
 		8E444DC11DE3AE96008342BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EA2932B1DE4AA3B0058FB19 /* GeocodableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocodableTests.swift; sourceTree = "<group>"; };
 		BBC359B92414249A39C15455 /* Pods_AddressGeocoderExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddressGeocoderExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +102,6 @@
 		8E444DBE1DE3AE96008342BC /* AddressGeocoderExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				8E444DBF1DE3AE96008342BC /* AddressGeocoderExampleTests.swift */,
 				8E444DC11DE3AE96008342BC /* Info.plist */,
 				8EA2932B1DE4AA3B0058FB19 /* GeocodableTests.swift */,
 			);
@@ -343,7 +340,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EA2932C1DE4AA3B0058FB19 /* GeocodableTests.swift in Sources */,
-				8E444DC01DE3AE96008342BC /* AddressGeocoderExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +472,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AddressGeocoderExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.AddressGeocoderExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -489,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AddressGeocoderExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.AddressGeocoderExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
