@@ -26,7 +26,7 @@ class ViewController: UIViewController, Geocodable {
             return
         }
 
-        geocodeLocality(string: zipCode,
+        geocodeLocality(zipCode,
                         forCountry: "US",
                         completion: {(result: Result<GeocodedAddress, GeocodingError>) -> () in
                             if let address = result.value {
