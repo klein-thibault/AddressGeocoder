@@ -10,9 +10,9 @@ before_install:
 #- gem install cocoapods # Since Travis is not always on latest version
 #- pod repo update
 #- pod install --project-directory=Example
-- gem install bundler
-- bundle install
-- pod repo update
+# - gem install bundler
+# - bundle install
+# - pod repo update
 - pod install --project-directory=Example
 script:
 - set -o pipefail && xcodebuild test -project AddressGeocoderExample.xcodeproj -scheme AddressGeocoderExampleTests -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.0' | xcpretty
