@@ -1,6 +1,6 @@
 //
 //  GeocodeAddress.swift
-//  Atlas
+//  AddressGeocoder
 //
 //  Created by Thibault Klein on 11/21/16.
 //  Copyright © 2016 Prolific Interactive. All rights reserved.
