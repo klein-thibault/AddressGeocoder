@@ -89,7 +89,7 @@ class GeocodableTests: XCTestCase {
         let invalidCode = "11111"
         let geocodingExpectation = expectation(description: "Geocoding finished")
         // When
-        let expectedError = GeocodingError.error("Couldn't find a matching address")
+        let expectedError = GeocodingError.error("Couldn't find a matching address in specified country.")
         // Then
         let mockGeocodable = MockGeocodable()
         mockGeocodable.geocodeLocality(invalidCode, forCountry: "US") { (result: Result<GeocodedAddress, GeocodingError>) in
