@@ -40,7 +40,7 @@ struct Geocoder: Geocodable { }
 let geocoder = Geocoder()
 
 geocoder.geocodeAddress(
-  from: "12345",
+  from: "11201",
   forCountry: "US",
   completion: { (result: Result<GeocodedAddress, GeocodingError>) -> () in
     if let address = result.value {

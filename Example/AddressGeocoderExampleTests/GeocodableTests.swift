@@ -33,7 +33,7 @@ class GeocodableTests: XCTestCase {
         let expectedState = "NY"
         // Then
         let mockGeocodable = MockGeocodable()
-        mockGeocodable.geocodeLocality(zipCode, forCountry: "US") { (result: Result<GeocodedAddress, GeocodingError>) in
+        mockGeocodable.geocodeAddress(from: zipCode, forCountry: "US") { (result: Result<GeocodedAddress, GeocodingError>) in
             geocodingExpectation.fulfill()
             if let address = result.value {
                 XCTAssertEqual(address.locality, expectedCity)
@@ -53,7 +53,7 @@ class GeocodableTests: XCTestCase {
         let expectedState = "CA"
         // Then
         let mockGeocodable = MockGeocodable()
-        mockGeocodable.geocodeLocality(zipCode, forCountry: "US") { (result: Result<GeocodedAddress, GeocodingError>) in
+        mockGeocodable.geocodeAddress(from: zipCode, forCountry: "US") { (result: Result<GeocodedAddress, GeocodingError>) in
             geocodingExpectation.fulfill()
             if let address = result.value {
                 XCTAssertEqual(address.locality, expectedCity)
@@ -73,7 +73,7 @@ class GeocodableTests: XCTestCase {
         let expectedState = "PA"
         // Then
         let mockGeocodable = MockGeocodable()
-        mockGeocodable.geocodeLocality(zipCode, forCountry: "US") { (result: Result<GeocodedAddress, GeocodingError>) in
+        mockGeocodable.geocodeAddress(from: zipCode, forCountry: "US") { (result: Result<GeocodedAddress, GeocodingError>) in
             geocodingExpectation.fulfill()
             if let address = result.value {
                 XCTAssertEqual(address.locality, expectedCity)
@@ -92,7 +92,7 @@ class GeocodableTests: XCTestCase {
         let expectedError = GeocodingError.error("Couldn't find a matching address in specified country.")
         // Then
         let mockGeocodable = MockGeocodable()
-        mockGeocodable.geocodeLocality(invalidCode, forCountry: "US") { (result: Result<GeocodedAddress, GeocodingError>) in
+        mockGeocodable.geocodeAddress(from: invalidCode, forCountry: "US") { (result: Result<GeocodedAddress, GeocodingError>) in
             geocodingExpectation.fulfill()
             XCTAssertEqual(result.error?.description, expectedError.description)
         }
