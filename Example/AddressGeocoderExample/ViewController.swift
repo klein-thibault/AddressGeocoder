@@ -26,13 +26,15 @@ class ViewController: UIViewController, Geocodable {
             return
         }
 
-        geocodeLocality(zipCode,
-                        forCountry: "US",
-                        completion: {(result: Result<GeocodedAddress, GeocodingError>) -> () in
-                            if let address = result.value {
-                                self.addressLabel.text = address.locality + ", " + address.state
-                            }
-        })
+        geocodeAddress(
+            from: zipCode,
+            forCountry: "US",
+            completion: { (result: Result<GeocodedAddress, GeocodingError>) -> () in
+                if let address = result.value {
+                    self.addressLabel.text = address.locality + ", " + address.state
+                }
+            }
+        )
     }
     
 }
