@@ -19,7 +19,7 @@ public protocol Geocodable {
     ///   - addressString: The string to geocode.
     ///   - country: The country to use as a filter. Default value is "US".
     ///   - completion: The completion block.
-    func geocodeAddress(from addressString: String,
+    func geocodeAddress(using addressString: String,
                         forCountry country: String,
                         completion: @escaping (Result<GeocodedAddress, GeocodingError>) -> ())
 
@@ -27,7 +27,7 @@ public protocol Geocodable {
 
 public extension Geocodable {
 
-    func geocodeAddress(from addressString: String,
+    func geocodeAddress(using addressString: String,
                         forCountry country: String,
                         completion: @escaping (Result<GeocodedAddress, GeocodingError>) -> ()) {
         geocode(addressString, forCountry: country) { result in
