@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |s|
   s.name             = "AddressGeocoder"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "Geocoding Helper"
 
   s.description      = <<-DESC
-Geocoding helper. Can provide a locality and state based on a ZIP code.
+Geocoding helper. Can provide a locality, coordinates and state based on a ZIP code.
                        DESC
 
   s.homepage         = "https://github.com/prolificinteractive/AddressGeocoder"
