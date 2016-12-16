@@ -39,20 +39,22 @@ import AddressGeocoder
 struct Geocoder: Geocodable { }
 let geocoder = Geocoder()
 
-geocoder.geocodeLocality(zipCode,
-                        forCountry: "US",
-                        completion: {(result: Result<GeocodedAddress, GeocodingError>) -> () in
-                            if let address = result.value {
-                                let cityAndState = address.locality + ", " + address.state
-                            }
-        })
+geocoder.geocodeAddress(
+  from: "12345",
+  forCountry: "US",
+  completion: { (result: Result<GeocodedAddress, GeocodingError>) -> () in
+    if let address = result.value {
+      self.addressLabel.text = address.locality + ", " + address.state
+    }
+  }
+)
 ```
 
 ## Contributing to AddressGeocoder
 
 To report a bug or enhancement request, feel free to file an issue under the respective heading.
 
-If you wish to contribute to the project, fork this repo and submit a pull request. Code contributions should follow the standards specified in the [Prolific Swift Style Guide](https://github.com/prolificinteractive/swift-style-guide). 
+If you wish to contribute to the project, fork this repo and submit a pull request. Code contributions should follow the standards specified in the [Prolific Swift Style Guide](https://github.com/prolificinteractive/swift-style-guide).
 
 ## License
 
