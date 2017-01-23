@@ -39,7 +39,7 @@ public extension Geocodable {
 
     private func geocode(_ addressString: String, forCountry country: String, completion: @escaping (Result<CLPlacemark, GeocodingError>) -> ()) {
         let geocoder = CLGeocoder()
-        
+
         geocoder.geocodeAddressString(addressString) { (placemarks, error) in
             if let error = error {
                 completion(.failure(.error(error.localizedDescription)))

@@ -35,6 +35,8 @@ class GeocodableTests: XCTestCase {
         let mockGeocodable = MockGeocodable()
         mockGeocodable.geocodeAddress(using: zipCode, forCountry: "US") { (result: Result<GeocodedAddress, GeocodingError>) in
             geocodingExpectation.fulfill()
+
+            XCTAssertNotNil(result.value)
             if let address = result.value {
                 XCTAssertEqual(address.locality, expectedCity)
                 XCTAssertEqual(address.state, expectedState)
@@ -55,6 +57,8 @@ class GeocodableTests: XCTestCase {
         let mockGeocodable = MockGeocodable()
         mockGeocodable.geocodeAddress(using: zipCode, forCountry: "US") { (result: Result<GeocodedAddress, GeocodingError>) in
             geocodingExpectation.fulfill()
+
+            XCTAssertNotNil(result.value)
             if let address = result.value {
                 XCTAssertEqual(address.locality, expectedCity)
                 XCTAssertEqual(address.state, expectedState)
@@ -75,6 +79,8 @@ class GeocodableTests: XCTestCase {
         let mockGeocodable = MockGeocodable()
         mockGeocodable.geocodeAddress(using: zipCode, forCountry: "US") { (result: Result<GeocodedAddress, GeocodingError>) in
             geocodingExpectation.fulfill()
+
+            XCTAssertNotNil(result.value)
             if let address = result.value {
                 XCTAssertEqual(address.locality, expectedCity)
                 XCTAssertEqual(address.state, expectedState)
