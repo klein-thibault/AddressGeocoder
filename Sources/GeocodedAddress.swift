@@ -20,5 +20,8 @@ public struct GeocodedAddress {
 
     /// Address state.
     public let state: String
+
+    /// Address zip code.
+    public let zipCode: String
     
 }

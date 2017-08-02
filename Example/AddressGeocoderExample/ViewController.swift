@@ -7,7 +7,6 @@
 //
 
 import AddressGeocoder
-import Result
 import UIKit
 
 class ViewController: UIViewController, Geocodable {
@@ -26,15 +25,11 @@ class ViewController: UIViewController, Geocodable {
             return
         }
 
-        geocodeAddress(
-            using: zipCode,
-            forCountry: "US",
-            completion: { (result: Result<GeocodedAddress, GeocodingError>) -> () in
-                if let address = result.value {
-                    self.addressLabel.text = address.locality + ", " + address.state
-                }
+        geocodeAddress(using: zipCode, forCountry: "US") { [weak self] (address, error) in
+            if let address = address {
+                self?.addressLabel.text = address.locality + ", " + address.state
             }
-        )
+        }
     }
     
 }
