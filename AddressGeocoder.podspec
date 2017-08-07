@@ -24,5 +24,4 @@ Geocoding helper. Can provide a locality, coordinates and state based on a ZIP c
   s.requires_arc = true
 
   s.source_files = 'Sources/**/*.{swift}'
-  s.dependency 'Result'
 end
