@@ -1,5 +1,5 @@
 PODS:
-  - AddressGeocoder (0.0.2)
+  - AddressGeocoder (0.0.3)
 
 DEPENDENCIES:
   - AddressGeocoder (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AddressGeocoder: 9248dfcdb0e0dc75a5583e4940414e1e08732713
+  AddressGeocoder: 5573dced5f8cd6162a66eed522edbb669b90cd13
 
 PODFILE CHECKSUM: 2e3a566fe5d8c369bca2f63a1d5ae83cdbce5057
 
